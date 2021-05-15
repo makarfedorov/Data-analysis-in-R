@@ -1,3 +1,6 @@
+
+library(tidyverse)
+library(lubridate)
 dv <- read_csv("mexico_divorces_2000-2015.csv")
 dv %>%
   group_by(DOB_partner_man) %>%
